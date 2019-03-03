@@ -1,0 +1,26 @@
+.userName {
+float: right;
+}
+.name {
+  text-align: left;
+  border-bottom: 1px dotted;
+}
+
+.name:hover {
+  position:relative;
+  cursor: pointer;
+}
+
+.name .extraInfo {
+  display: none;
+}
+
+.name:hover .extraInfo{
+  border: black 1px solid;
+  padding: 5px 5px 5px 5px;
+  display: table;
+  position: absolute;
+  top: 0px;
+  left: 120%;
+  background: white ;
+}
