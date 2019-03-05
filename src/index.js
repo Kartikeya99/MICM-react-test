@@ -33,7 +33,9 @@ class App extends Component {
           (<h1>User (loading)</h1>)  :
           (<div>
               <h1>Users</h1>
-              <UserList user={this.state.users}/>
+              <div id="masterList">
+                <UserList user={this.state.users}/>
+              </div>
           </div>)
         }
       </div>

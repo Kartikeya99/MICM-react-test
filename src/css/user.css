@@ -1,5 +1,6 @@
 .userName {
-float: right;
+  float: right;
+  color: lightGrey;
 }
 .name {
   text-align: left;
